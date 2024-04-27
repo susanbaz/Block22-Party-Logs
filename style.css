@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #party-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .party {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .party h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .party p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .party .details-button,
+  .party .delete-button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .party .details-button {
+    margin-right: 5px;
+  }
+  
+  .party-details {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 400px;
+  }
+  
+  .party-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .party-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .party-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .party-details ul {
+    margin-bottom: 10px;
+  }
+  
+  .party-details ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .party-details .close-button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
